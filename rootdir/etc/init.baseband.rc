@@ -130,4 +130,3 @@ on property:sys.boot_completed=1
 
 on property:debug.mdm.cpboot_done=true
     start umount_cpdump
-
