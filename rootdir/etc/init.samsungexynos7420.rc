@@ -6,6 +6,9 @@ import init.carrier.rc
 on early-init
     mount debugfs /sys/kernel/debug /sys/kernel/debug
 
+on early-init
+    export LD_SHIM_LIBS /system/lib/libril.so|libsamsung_symbols.so:/system/lib64/libril.so|libsamsung_symbols.so
+
 on init
     export LD_SHIM_LIBS /system/bin/gpsd|libdmitry.so
 
