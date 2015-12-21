@@ -307,5 +307,5 @@
     <bool name="config_samsung_stk">true</bool>
 
     <!-- Our modem doesn't support this query yet -->
-    <string name="config_radio_access_family">GSM|WCDMA|LTE</string>
+    <!-- string name="config_radio_access_family">GSM|WCDMA|LTE</string-->
 </resources>
