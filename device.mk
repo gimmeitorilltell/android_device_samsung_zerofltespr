@@ -161,6 +161,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     init.sec.boot.sh
 
+# Samsung symbols
+PRODUCT_PACKAGES += \
+    libsamsung_symbols
+
 PRODUCT_PACKAGES += \
     dhcpcd.conf \
     hostapd \
