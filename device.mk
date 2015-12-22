@@ -163,7 +163,8 @@ PRODUCT_PACKAGES += \
 
 # Samsung symbols
 PRODUCT_PACKAGES += \
-    libsamsung_symbols
+    libsamsung_symbols \
+    ril-wrapper
 
 PRODUCT_PACKAGES += \
     dhcpcd.conf \
