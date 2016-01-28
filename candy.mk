@@ -17,10 +17,10 @@
 $(call inherit-product, device/samsung/zerofltespr/full_zerofltespr.mk)
 
 # Enhanced NFC
-$(call inherit-product, vendor/cm/config/nfc_enhanced.mk)
+$(call inherit-product, vendor/candy/config/nfc_enhanced.mk)
 
-# Inherit common CM phone.
-$(call inherit-product, vendor/cm/config/common_full_phone.mk)
+# Inherit common Candy phone.
+$(call inherit-product, vendor/candy/config/common_full_phone.mk)
 
 PRODUCT_DEVICE := zerofltespr
-PRODUCT_NAME := cm_zerofltespr
+PRODUCT_NAME := candy_zerofltespr
