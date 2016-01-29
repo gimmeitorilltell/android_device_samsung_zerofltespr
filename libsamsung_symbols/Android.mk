@@ -16,8 +16,12 @@ LOCAL_PATH := $(call my-dir)
 
 include $(CLEAR_VARS)
 
-LOCAL_SRC_FILES := samsung_ril.c
-LOCAL_SHARED_LIBRARIES := libbinder
+LOCAL_SRC_FILES := \
+    Fence.cpp \
+    GraphicBufferMapper.cpp
+
+LOCAL_SHARED_LIBRARIES := libbinder libui
+
 LOCAL_MODULE := libsamsung_symbols
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES

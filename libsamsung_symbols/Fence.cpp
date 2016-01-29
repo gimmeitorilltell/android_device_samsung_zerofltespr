@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-void RIL_register_socket(void *Init, int socketType, int argc, char **argv)  {
-}
+/* status_t android::Fence::wait(int timeout); */
+extern "C" int _ZN7android5Fence4waitEi(int timeout);
 
-/* status_t Parcel::writeString16 */
-int _ZN7android6Parcel13writeString16EPKDsj(void *addr, unsigned int size);
-int _ZN7android6Parcel13writeString16EPKtj(void *addr, unsigned int size) {
-    return _ZN7android6Parcel13writeString16EPKDsj(addr, size);
+/* status_t android::Fence::wait(unsigned int timeout); */
+extern "C" int _ZN7android5Fence4waitEj(unsigned int timeout)
+{
+    return _ZN7android5Fence4waitEi(static_cast<int>(timeout));
 }
