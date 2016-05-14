@@ -50,8 +50,8 @@ void vendor_load_properties()
 
     if (strstr(bootloader, "G920P")) {
         /* zerofltespr */
-        property_set("ro.build.fingerprint", "samsung/zerofltespr/zerofltespr:5.1.1/LMY47X/G920PVPU3BOJ7:user/release-keys");
-        property_set("ro.build.description", "zerofltespr-user 5.1.1 LMY47X G920PVPU3BOJ7 release-keys");
+        property_set("ro.build.fingerprint", "samsung/zerofltespr/zerofltespr:6.0.1/MMB29K/G920PVPS3CPD2:user/release-keys");
+        property_set("ro.build.description", "zerofltespr-user 6.0.1 MMB29K G920PVPS3CPD2 release-keys");
         property_set("ro.product.model", "SM-G920P");
         property_set("ro.product.device", "zerofltespr");
     }
