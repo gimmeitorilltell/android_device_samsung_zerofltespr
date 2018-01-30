@@ -30,7 +30,7 @@ TARGET_OTA_ASSERT_DEVICE := zerofltespr
 TARGET_SPECIFIC_HEADER_PATH += device/samsung/zerofltespr/include
 
 # Kernel
-TARGET_KERNEL_CONFIG := lineageos_zerofltespr_defconfig
+TARGET_KERNEL_CONFIG := candy_zerofltespr_defconfig
 
 # Partitions
 BOARD_SYSTEMIMAGE_PARTITION_SIZE := 3879731200
