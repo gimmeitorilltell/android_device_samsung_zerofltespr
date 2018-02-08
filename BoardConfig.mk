@@ -34,3 +34,6 @@ TARGET_KERNEL_CONFIG := lineageos_zerofltespr_defconfig
 
 # Partitions
 BOARD_SYSTEMIMAGE_PARTITION_SIZE := 3879731200
+
+# inherit from the proprietary version
+-include vendor/samsung/zerofltespr/zerofltespr-vendor.mk
