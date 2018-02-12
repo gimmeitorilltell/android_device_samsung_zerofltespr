@@ -1,0 +1,6 @@
+[{
+        "branch": "c8.1",
+        "repository": "CandyDevices/device_samsung_zero-common",
+        "target_path": "device/samsung/zero-common",
+	    "remote": "github"
+}]
