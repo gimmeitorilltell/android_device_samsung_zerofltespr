@@ -1,8 +1,0 @@
-PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/full_zerofltespr.mk \
-    $(LOCAL_DIR)/aokp.mk \
-    $(LOCAL_DIR)/aosp_zerofltespr.mk \
-    $(LOCAL_DIR)/candy.mk \
-    $(LOCAL_DIR)/gzosp.mk \
-    $(LOCAL_DIR)/lineage.mk \
-    $(LOCAL_DIR)/omni_zerofltespr.mk
